@@ -1,2 +1,5 @@
-import { PrismaClient } from "./generated/prisma/client";
- export const prismaClient = new PrismaClient();
+
+import "dotenv/config";
+
+export { prisma } from './client.js' // exports instance of prisma
+export * from "./generated/prisma/client.js" // exports generated types from prisma
