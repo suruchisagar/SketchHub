@@ -8,5 +8,5 @@ export default async function CanvasPage({ params }: {
     const roomId = (await params).roomId;
 
     return <RoomCanvas roomId={roomId} />
-   
+    
 }
