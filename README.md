@@ -22,10 +22,7 @@ This is a [Turborepo](https://turborepo.org) monorepo containing the following p
   - Sign in/Sign up pages
   - Canvas access
 
-- **`apps/web`**: Main drawing application (Next.js)
-  - Canvas drawing interface
-  - Room joining and management
-  - Real-time collaboration UI
+
 
 - **`apps/http-backend`**: REST API server (Express)
   - User authentication (signup/signin)
@@ -82,7 +79,6 @@ This is a [Turborepo](https://turborepo.org) monorepo containing the following p
 
 ```bash
 git clone https://github.com/suruchisagar/SketchHub.git
-cd excelidraw
 ```
 
 ### 2. Install dependencies
