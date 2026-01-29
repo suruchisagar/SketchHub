@@ -2,7 +2,7 @@
 
 A real-time collaborative whiteboarding application built using modern web technologies, featuring multiplayer support, room-based collaboration, and real-time chat.
 
-## 🚀 Features
+## Features
 
 - **Real-time Collaboration**: Multiple users can draw and edit on the same canvas simultaneously
 - **Room-based Workspaces**: Create and join drawing rooms with unique identifiers
@@ -11,7 +11,7 @@ A real-time collaborative whiteboarding application built using modern web techn
 - **Modern UI**: Beautiful, responsive interface built with Next.js and Tailwind CSS
 - **Canvas Drawing**: Interactive canvas with drawing tools and shape recognition
 
-## 📁 Project Structure
+## Project Structure
 
 This is a [Turborepo](https://turborepo.org) monorepo containing the following packages and apps:
 
@@ -60,7 +60,7 @@ This is a [Turborepo](https://turborepo.org) monorepo containing the following p
 - **`packages/eslint-config`**: ESLint configurations
 - **`packages/typescript-config`**: TypeScript configurations
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: Next.js 16, React 19, TypeScript, Tailwind CSS
 - **Backend**: Express.js, WebSocket (ws)
@@ -70,13 +70,13 @@ This is a [Turborepo](https://turborepo.org) monorepo containing the following p
 - **Package Manager**: pnpm 9.0.0
 - **Node Version**: >=18
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js >= 18
 - pnpm 9.0.0 (or install via `npm install -g pnpm@9.0.0`)
 - PostgreSQL database
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -157,7 +157,7 @@ pnpm dev --filter=ws-backend
 - HTTP Backend: `http://localhost:3001`
 - WebSocket Backend: `ws://localhost:8080`
 
-## 📝 Available Scripts
+##  Available Scripts
 
 ### Root level
 
@@ -171,7 +171,7 @@ pnpm dev --filter=ws-backend
 
 Each app has its own scripts defined in their `package.json` files.
 
-## 🗄️ Database Schema
+##  Database Schema
 
 The application uses the following main models:
 
@@ -179,7 +179,7 @@ The application uses the following main models:
 - **Room**: Drawing rooms with unique slugs and admin users
 - **Chat**: Chat messages associated with rooms and users
 
-## 🔐 Authentication
+##  Authentication
 
 The application uses JWT-based authentication:
 
@@ -188,7 +188,7 @@ The application uses JWT-based authentication:
 3. The token is used for authenticated requests and WebSocket connections
 4. WebSocket connections require a token in the query string: `ws://localhost:8080?token=<JWT_TOKEN>`
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 ### HTTP Backend (Port 3001)
 
@@ -206,7 +206,7 @@ The application uses JWT-based authentication:
   - `leave_room`: Leave a room
   - `chat`: Send a chat message to a room
 
-## 🏗️ Development
+##  Development
 
 ### Adding a new package
 
