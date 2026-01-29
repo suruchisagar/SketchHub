@@ -1,6 +1,6 @@
-# Excelidraw - Collaborative Whiteboarding Platform
+# SketchHub - Collaborative Whiteboarding Platform
 
-A real-time collaborative whiteboarding and drawing application built with modern web technologies. This project is a monorepo implementation of an Excalidraw-like drawing tool with multiplayer support, room-based collaboration, and real-time chat.
+A real-time collaborative whiteboarding application built using modern web technologies, featuring multiplayer support, room-based collaboration, and real-time chat.
 
 ## 🚀 Features
 
